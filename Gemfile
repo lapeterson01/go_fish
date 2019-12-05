@@ -7,6 +7,8 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
+# call 'binding.pry' to stop execution and open debugger console
+gem 'pry'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
