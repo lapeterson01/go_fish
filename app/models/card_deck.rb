@@ -19,4 +19,12 @@ class CardDeck
   def count
     cards.count
   end
+
+  def ==(other)
+    equal = true
+    other.cards.each_with_index do |other_card, index|
+      equal = false if cards[index] != other_card
+    end
+    equal
+  end
 end
